@@ -1,0 +1,12 @@
+.env
+.secrets/
+*.json.key
+__pycache__/
+*.pyc
+.venv/
+venv/
+.captures/
+*.log
+
+# internal planning notes — keep local, never publish
+PLAN.md

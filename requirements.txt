@@ -1,0 +1,9 @@
+httpx>=0.27           # REST + SSE streaming client
+solders>=0.21         # Solana keypair / signing / transactions
+solana>=0.34          # RPC client for broadcasting the registration & anchor txs
+pynacl>=1.5           # ed25519 verify for Sign-In-With-Solana
+base58>=2.1           # encode/decode Solana addresses & signatures
+fastapi>=0.111        # REST API + dashboard surface
+uvicorn[standard]>=0.30
+python-dotenv>=1.0    # load .env config
+pydantic>=2.7         # typed normalized schema
